@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
-import ClipLoader from "react-spinners/ClipLoader";
+import './Main.css';
+import HashLoader from "react-spinners/HashLoader";
 
 const Seach = () => {
     const [search,setseacrh]=React.useState(true);
@@ -8,21 +9,23 @@ const Seach = () => {
     useEffect(()=>{
         setTimeout(() => {
             setseacrh(false);
-        }, 2000);
+        }, 3000);
 
     })
 
   return (
-    <div>{
+    <div className='main'>{
     
         search ?
         <div>
-            <ClipLoader color={'#D76936'} loading={search}  size={50} />
+            <HashLoader color={'#5F36D7'} loading={search}  size={50} />
         </div>
        
           
         :
-        <div>Hi I'm rrendered</div>
+        <div>
+            <h1>Hi I'm Loaded</h1>
+        </div>
         
         
         

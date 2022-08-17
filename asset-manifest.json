@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Pavan045-tech/th.git/static/css/main.32ab7860.css",
+    "main.js": "/Pavan045-tech/th.git/static/js/main.3ec6723b.js",
+    "static/js/787.47d1aa20.chunk.js": "/Pavan045-tech/th.git/static/js/787.47d1aa20.chunk.js",
+    "index.html": "/Pavan045-tech/th.git/index.html",
+    "main.32ab7860.css.map": "/Pavan045-tech/th.git/static/css/main.32ab7860.css.map",
+    "main.3ec6723b.js.map": "/Pavan045-tech/th.git/static/js/main.3ec6723b.js.map",
+    "787.47d1aa20.chunk.js.map": "/Pavan045-tech/th.git/static/js/787.47d1aa20.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32ab7860.css",
+    "static/js/main.3ec6723b.js"
+  ]
+}
